@@ -1,0 +1,211 @@
+body,html
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #dfd3c3;
+}
+.hm
+{
+  width: 4.5%;
+  padding-top: 5px;
+}
+nav
+{
+  display: inline-block;
+  font-family: verdana;
+  width: 100%;
+  height: 80px;
+  background-color: #0009;
+  line-height: 50px;
+}
+nav ul
+{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li
+{
+  list-style-position: outside;
+  display: inline-block;
+  transition: 0.8s all;
+}
+nav ul li:hover
+{
+  background-color: #ffa41b;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+.na
+{
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  width: 100%;
+  height: 10%;
+
+}
+.hed
+{
+  display: inline;
+  margin-left: 35%;
+}
+.hedba
+{
+  display: inline;
+  margin-left: 39%;
+}
+.hedm
+{
+  display: inline;
+  margin-left: 39.5%;
+}
+.hedau
+{
+  display: inline;
+  margin-left: 38%;
+}
+.hedoo
+{
+  display: inline;
+  margin-left: 35%;
+}
+img
+{
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: auto;
+  width: 98%;
+}
+.welcm
+{
+  font-family: 'Cookie', cursive;
+
+}
+.bow
+{
+  font-family: 'Walter Turncoat', cursive;
+}
+.timg
+{
+  width: 225px;
+  height: 225px;
+  margin-top: 2%;
+}
+.h
+{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.footer
+{
+  background-color: #0009;
+  font-family: 'Short Stack', cursive;
+  color: white;
+}
+.ft
+{
+  padding: 1%;
+  margin-left: 41%;
+}
+.ftb
+{
+  margin-top: -1%;
+  margin-left: 47%;
+}
+.contact-form
+{
+  width: 85%;
+  max-width: 600px;
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  padding: 30px 40px;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+}
+.contact-form h1
+{
+  font-family: monospace;
+  margin-top: 0;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.txtb
+{
+  border: 1px solid gray;
+  margin : 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label
+{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input,.txtb textarea
+{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn
+{
+  text-decoration: none;
+  display: inline-block;
+  background: #9b59b6;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+.btn:hover
+{
+  background-color: #6f4a8e;
+}
+.addr
+{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  height: 100px;
+}
+.addr2
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
+}
+.addr3
+{
+  padding-top: 10px;
+  /*padding-bottom: 10px;*/
+  height: 100px;
+}
+.one
+{
+  padding-left: 15%;
+  width: 12%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 10px auto 100px auto;
+  line-height: 2;
+}

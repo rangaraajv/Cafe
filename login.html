@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Café del lector ☕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logst.css">
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/2935/2935307.svg">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="">
+        <nav>
+          <a href="index.html"><img class="hm" src="https://image.flaticon.com/icons/svg/808/808860.svg" alt=""></a>
+          <ul>
+            <li><a href="book.html">Books</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="diary.html">Order Online</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+    </div>
+
+    <div class="na">
+        <p style="font-size:60px" class="hed2">☕ Login ☕</p>
+    </div>
+
+    <center>
+
+      <div class="Login-form">
+
+        <div class="txtb">
+          <label for="us">Username:</label>
+          <input type="text" name="us" value="">
+        </div>
+
+        <div class="txtb">
+          <label for="pw">Password:</label>
+          <input type="password" name="pw" value="">
+        </div>
+
+        <a class="btn2">Login</a>
+
+        <div class="">
+          <br>
+          <p>If not a member, register here!</p>
+        </div>
+
+        <div class="">
+          <a class="btn3" id="myBtn">Sign up</a>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+                <p style="font-size:40px">Sign Up</p>
+
+                <div class="txtb2">
+                  <label for="nm">First Name:</label>
+                  <input type="text" name="nm" value="">
+                </div>
+
+                <div class="txtb3">
+                  <label for="nm">Last Name:</label>
+                  <input type="text" name="nm" value="">
+                </div>
+
+                <div class="txtb2">
+                  <label for="us">Username:</label>
+                  <input type="text" name="us" value="">
+                </div>
+
+                <div class="txtb3">
+                  <label for="mail">E-mail:</label>
+                  <input type="email" name="mail" value="">
+                </div>
+
+                <div class="txtb2">
+                  <label for="pw">Password:</label>
+                  <input type="password" name="pw" value="">
+                </div>
+
+                <div class="txtb3">
+                  <label for="pw">Re-Enter Password:</label>
+                  <input type="password" name="pw" value="">
+                </div>
+
+                <div class="txtb2">
+                  <label for="dateofbirth">Date Of Birth:</label>
+                  <input type="date" name="dateofbirth" id="dateofbirth">
+                </div>
+
+                <div class="txtb4">
+                  <label for="">Gender:</label>
+
+                  <div class="radio">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    <label for="radio-1" class="radio-label">Male</label>
+                  </div>
+
+                  <div class="radio">
+                    <input id="radio-2" name="radio" type="radio">
+                    <label  for="radio-2" class="radio-label">Female</label>
+                  </div>
+                </div>
+
+                <div class="chkbx">
+                  <input type="checkbox">
+                  <label class="container">I agree to the <a href="#">terms & conditon.</a>
+                  </label>
+                </div>
+
+                <a class="btns">Sign Up</a>
+
+            </div>
+          </div>
+
+          <p>Or register using</p>
+        </div>
+
+        <div class="icons">
+          <img class="google" src="https://image.flaticon.com/icons/svg/2991/2991148.svg" alt="">
+          <img class="insta" src="https://image.flaticon.com/icons/svg/1409/1409946.svg" alt="">
+          <img class="fb" src="https://image.flaticon.com/icons/svg/1384/1384053.svg" alt="">
+        </div>
+
+      </div>
+
+    </center>
+
+    <div class="footer">
+        <p class="ft">Café del lector, Erode - 638001</p>
+        <table width="100" class="ftb">
+          <tr>
+          <th><a href="https://www.facebook.com/rangaraaj1"><img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="" width="30px" height="30px"></th>
+          <th></th>
+          <th><a href="https://www.instagram.com/rangaraaj_venkkatesan/"><img src="https://image.flaticon.com/icons/svg/187/187207.svg" alt="" width="30px" height="30px"></th>
+          <th></th>
+          <th><a href="https://twitter.com/rangaraaj7"><img src="https://image.flaticon.com/icons/svg/179/179342.svg" alt="" width="30px" height="30px"></th>
+          </tr>
+        </table>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function()
+      {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function()
+      {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event)
+      {
+        if (event.target == modal)
+        {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+
+  </body>
+</html>
