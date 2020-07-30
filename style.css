@@ -52,10 +52,35 @@ nav ul li a
   height: 10%;
 
 }
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+
+  background-color: #0009;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 12px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
 .hed
 {
   display: inline;
   margin-left: 35%;
+}
+.hedf
+{
+  display: inline;
+  margin-left: 39%;
 }
 .hedba
 {
